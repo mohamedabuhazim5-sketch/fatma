@@ -38,13 +38,13 @@ export default function App() {
 
   const content = useMemo(
     () => ({
-      heroName: "فاطمة",
+      heroName: "فاطمة 8/7/2002",
       heroSub: "Birthday Queen 👑🎂",
       heroText:
         "كل سنة وانتي أجمل بنت في الدنيا، وألطف قلب، وأحلى نعمة ربنا رزقني بيها. وجودك في حياتي مخلّي كل حاجة أحلى بكتير ❤️",
       cuteText: "H.B.D لأحلى واحدة تمت الـ 24 🥹😘🫶🏻",
       birthdayTitle: "عيد ميلاد أجمل فاطمة في الدنيا 🎉",
-      birthdayDate: "2002-03-26",
+      birthdayDate: "8/7/2002",
       timerTitle: "عدّاد من يوم ميلاد الملكة 👑",
       timerText:
         "كل ثانية في اليوم ده مميزة عشان هو يوم ميلاد أحلى وأغلى واحدة في قلبي ❤️",
@@ -131,7 +131,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const startDate = new Date("2002-03-26T00:00:00");
+    const startDate = new Date("2002-07-8T00:00:00");
 
     const updateCounter = () => {
       const now = new Date().getTime();
