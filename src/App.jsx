@@ -131,7 +131,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const startDate = new Date("2002-07-8T00:00:00");
+    const startDate = new Date("2002-07-08T00:00:00");
 
     const updateCounter = () => {
       const now = new Date().getTime();
